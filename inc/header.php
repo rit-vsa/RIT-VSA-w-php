@@ -1,5 +1,6 @@
 
 <head>
+  <!-- if this is event page, include fullcalendar library for generating event calendar-->
   <?php if($pageTitle == "Event"){ ?>
       <html>
       <head>
@@ -84,15 +85,18 @@
     </style>
     </head>
     <body>
+      <!-- if it's not event page, include bootstrap, jquery, and lightbox-->
     <?php }  else { ?>
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="css/lightbox.css">
       <script src="jquery-1.11.3.min.js"></script>
       <script src="js/bootstrap.js"></script>
       <?php } ?>
+      <!-- set title of current page -->
     <title><?php echo $pageTitle ?></title>
 </head>
 <body>
+    <!-- Collapsible navigation bar -->
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">

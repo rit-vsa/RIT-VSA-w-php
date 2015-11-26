@@ -47,6 +47,7 @@ include("inc/header.php");
               echo '<p class="alert alert-warning">'.$error_message."</p>";
             }
           }?>
+      <!-- contact forms -->
       <form class="col-md-6 col-md-offset-3" method="post" action="contact.php">
         <div class="form-group">
           <input name="name" class="form-control" type="text" placeholder="Enter your Name">

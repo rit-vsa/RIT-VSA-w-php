@@ -1,6 +1,7 @@
 <?php
 $pageTitle = "Photo Gallery";
 include("inc/header.php");
+require_once("inc/images.php");
 ?>
 <div class="container">
   <div class="page-header">
@@ -8,12 +9,11 @@ include("inc/header.php");
   </div>
   <div class="row">
     <?php
-    $photo_count = 8;
-      for($i = 1;$i <= $photo_count;$i++){
-        echo "<div class='col-md-3'>
-              <a href='images/img".$i.".jpg' data-lightbox='gallery' class='thumbnail'><img src='images/img".$i.".jpg'></a>
-              </div>";
-      }
+    foreach($names as $name){
+      echo "<div class='col-md-3'>
+            <a href='img/".$name."' data-lightbox='gallery' class='thumbnail'><img src='img/".$name."'></a>
+            </div>";
+    }
     ?>
   </div>
 </div>
