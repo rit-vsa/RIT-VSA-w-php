@@ -2,7 +2,7 @@
 $pageTitle = "Bao&apos;s Birth Day";
 include("inc/header.php");
 require_once("inc/images.php");
-$images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img/Bao's Birth Day");
+$images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img/Bao Birthday");
 ?>
 
 
@@ -19,10 +19,10 @@ $images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img/Bao's Birth 
     <?php
     foreach($images as $image){
       echo "<div class='col-md-3'>
-            <a href='img/Bao&apos;s Birth Day/".$image."' data-lightbox='gallery' class='thumbnail'><img src='img/Bao&apos;s Birth Day/".$image."'></a>
+            <a href='img/Bao Birthday/".$image."' data-lightbox='gallery' class='thumbnail'><img src='img/Bao Birthday/".$image."'></a>
             </div>";
     }
-    ?>
+     ?>
   </div>
 </div>
 <script src="js/lightbox.js"></script>

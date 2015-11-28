@@ -6,7 +6,7 @@
   $pageTitle = "Photo Gallery";
   include("inc/head.php");
   require_once("inc/images.php");
-  $images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img");
+  $images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/assets/custom/img");
    ?>
 </head>
 
@@ -21,19 +21,19 @@
       <li><a class="active" href="gallery.php">Photo Gallery</a></li>
     </ul>
     <div class="col-md-3">
-      <a href="durand photos.php"><img width=100% class="thumbnail" src="img/Durand.jpg"></a>
+      <a href="subpages/gallery/durand photos.php"><img width=100% class="thumbnail" src="assets/custom/img/Durand.jpg"></a>
       <p class="text-center">Durand Eastman Park</p>
     </div>
     <div class="col-md-3">
-      <a href="letchworth.php"><img class="thumbnail" src="img/Letchworth.jpg" width=100%></a>
+      <a href="subpages/gallery/letchworth.php"><img class="thumbnail" src="assets/custom/img/Letchworth.jpg" width=100%></a>
       <p class="text-center">Letchworth State Park</p>
     </div>
     <div class="col-md-3">
-      <a href="syracuse.php"><img class="thumbnail" src="img/Syracuse.jpg" width=100%></a>
+      <a href="subpages/gallery/syracuse.php"><img class="thumbnail" src="assets/custom/img/Syracuse.jpg" width=100%></a>
       <p class="text-center">Syracuse State Fair</p>
     </div>
     <div class="col-md-3">
-      <a href="bao birthday.php"><img class="thumbnail" src="img/Bao's Birth Day.jpg" width=100%></a>
+      <a href="subpages/gallery/bao birthday.php"><img class="thumbnail" src="assets/custom/img/Bao Birthday.jpg" width=100%></a>
       <p class="text-center">Bảo&apos;s Birth Day</p>
     </div>
   </div>

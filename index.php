@@ -12,7 +12,7 @@
   <?php
   include("inc/header.php");
   require_once("inc/images.php");
-  $images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img");
+  $images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/assets/custom/img");
    ?>
     
   <!-- image gallery of all our photos -->
@@ -24,10 +24,10 @@
             <?php
               for($i = 0;$i < count($images);$i++){
                 if($i == 0){
-                  echo "<div class='item active'><img src='img/".$images[$i]."'></div>";
+                  echo "<div class='item active'><img src='assets/custom/img/".$images[$i]."'></div>";
                 }
                 else{
-                  echo "<div class='item'><img src='img/".$images[$i]."'></div>";
+                  echo "<div class='item'><img src='assets/custom/img/".$images[$i]."'></div>";
                 }
               }
              ?>

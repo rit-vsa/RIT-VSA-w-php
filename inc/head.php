@@ -1,7 +1,7 @@
 <meta charset='utf-8' />
 
 <!-- JQuery -->
-<script src="jquery-1.11.3.min.js"></script>
+<script src="assets/other/jquery/jquery-1.11.3.min.js"></script>
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
