@@ -1,7 +1,5 @@
 <?php
-$root = $_SERVER['DOCUMENT_ROOT'];
-$path = $root."/RIT VSA/img/";
-$filenames = scandir($path);
+$filenames = scandir("images/");
 $names = array();
 $i = 0;
 foreach($filenames as $name){
@@ -11,4 +9,4 @@ foreach($filenames as $name){
     $i++;
   }
 }
- ?>
+?>

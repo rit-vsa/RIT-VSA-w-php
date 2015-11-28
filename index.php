@@ -1,9 +1,19 @@
-<?php
-$pageTitle = "Home";
-include("inc/header.php");
-require_once("inc/images.php");
- ?>
- <!-- image gallery of all our photos -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <?php
+  $pageTitle = "Home";
+  include("include/head.php");
+  ?>
+</head>
+    
+<body>
+  <?php
+  include("include/header.php");
+  require_once("include/images.php");
+  ?>
+  <!-- image gallery of all our photos -->
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
@@ -12,10 +22,10 @@ require_once("inc/images.php");
              <?php
              for($i = 0;$i < count($names);$i++){
                if($i == 0){
-                 echo "<div class='item active'><img src='img/".$names[$i]."'></div>";
+                 echo "<div class='item active'><img src='images/".$names[$i]."'></div>";
                }
                else{
-                 echo "<div class='item'><img src='img/".$names[$i]."'></div>";
+                 echo "<div class='item'><img src='images/".$names[$i]."'></div>";
                }
              }
              ?>
@@ -31,5 +41,6 @@ require_once("inc/images.php");
      </div>
    </div>
  </div>
-
- <?php include("inc/footer.php"); ?>
+</body>
+    
+</html>
