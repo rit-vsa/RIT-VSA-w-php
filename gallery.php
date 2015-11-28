@@ -37,6 +37,7 @@
       <p class="text-center">Bảo&apos;s Birth Day</p>
     </div>
   </div>
+  <?php include("inc/footer.php"); ?>
 </body>
 <script src="assets/other/lightbox/lightbox.js"></script>
 

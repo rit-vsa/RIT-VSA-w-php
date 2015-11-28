@@ -1,0 +1,41 @@
+/***********************
+ * Bootstrap Overwrite *
+ ***********************/
+nav .container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/***********
+ * General *
+ ***********/
+html, body {
+    min-height: 1vh;
+    height: 100%;
+}
+
+.container {
+    padding: 40px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/**********************
+ * Top Navigation Bar *
+ **********************/
+#footer {
+    position: relative;  
+    bottom: 0;
+    margin: auto;
+/*    max-height: 10px;*/
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+#footer p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}

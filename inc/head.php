@@ -24,6 +24,7 @@
 
 
 <!-- Custom -->
+<link rel="stylesheet" href="assets/custom/css/main.css">
 
 
 <!-- set title of current page -->
