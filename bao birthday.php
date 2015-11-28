@@ -2,7 +2,7 @@
 $pageTitle = "Bao&apos;s Birth Day";
 include("inc/header.php");
 require_once("inc/images.php");
-$images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img/Bao Birthday");
+$images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/assets/custom/img/Bao Birthday");
 ?>
 
 
@@ -19,13 +19,13 @@ $images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img/Bao Birthday
     <?php
     foreach($images as $image){
       echo "<div class='col-md-3'>
-            <a href='img/Bao Birthday/".$image."' data-lightbox='gallery' class='thumbnail'><img src='img/Bao Birthday/".$image."'></a>
+            <a href='assets/custom/Bao Birthday/".$image."' data-lightbox='gallery' class='thumbnail'><img src='assets/custom/Bao Birthday/".$image."'></a>
             </div>";
     }
      ?>
   </div>
 </div>
-<script src="js/lightbox.js"></script>
-<?php
-include("inc/footer.php");
- ?>
+<script src="assets/other/lightbox/lightbox.js"></script>
+</body>
+
+</html>

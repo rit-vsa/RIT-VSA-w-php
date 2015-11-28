@@ -2,7 +2,7 @@
 $pageTitle = "Syracuse State Fair";
 include("inc/header.php");
 require_once("inc/images.php");
-$images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img/Syracuse");
+$images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/assets/custom/img/Syracuse");
 ?>
 <div class="container">
   <div class="page-header">
@@ -17,13 +17,13 @@ $images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img/Syracuse");
     <?php
     foreach($images as $image){
       echo "<div class='col-md-3'>
-            <a href='img/Syracuse/".$image."' data-lightbox='gallery' class='thumbnail'><img src='img/Syracuse/".$image."'></a>
+            <a href='assets/custom/img/Syracuse/".$image."' data-lightbox='gallery' class='thumbnail'><img src='assets/custom/img/Syracuse/".$image."'></a>
             </div>";
     }
-    ?>
+     ?>
   </div>
 </div>
-<script src="js/lightbox.js"></script>
-<?php
-include("inc/footer.php");
- ?>
+<script src="assets/other/lightbox/lightbox.js"></script>
+</body>
+
+</html>

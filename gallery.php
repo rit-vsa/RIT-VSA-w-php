@@ -21,19 +21,19 @@
       <li><a class="active" href="gallery.php">Photo Gallery</a></li>
     </ul>
     <div class="col-md-3">
-      <a href="subpages/gallery/durand photos.php"><img width=100% class="thumbnail" src="assets/custom/img/Durand.jpg"></a>
+      <a href="durand photos.php"><img width=100% class="thumbnail" src="assets/custom/img/Durand.jpg"></a>
       <p class="text-center">Durand Eastman Park</p>
     </div>
     <div class="col-md-3">
-      <a href="subpages/gallery/letchworth.php"><img class="thumbnail" src="assets/custom/img/Letchworth.jpg" width=100%></a>
+      <a href="letchworth.php"><img class="thumbnail" src="assets/custom/img/Letchworth.jpg" width=100%></a>
       <p class="text-center">Letchworth State Park</p>
     </div>
     <div class="col-md-3">
-      <a href="subpages/gallery/syracuse.php"><img class="thumbnail" src="assets/custom/img/Syracuse.jpg" width=100%></a>
+      <a href="syracuse.php"><img class="thumbnail" src="assets/custom/img/Syracuse.jpg" width=100%></a>
       <p class="text-center">Syracuse State Fair</p>
     </div>
     <div class="col-md-3">
-      <a href="subpages/gallery/bao birthday.php"><img class="thumbnail" src="assets/custom/img/Bao Birthday.jpg" width=100%></a>
+      <a href="bao birthday.php"><img class="thumbnail" src="assets/custom/img/Bao Birthday.jpg" width=100%></a>
       <p class="text-center">Bảo&apos;s Birth Day</p>
     </div>
   </div>
