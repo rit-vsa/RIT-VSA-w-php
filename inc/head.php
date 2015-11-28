@@ -15,6 +15,7 @@
 <!-- Event Calendar -->
 <link href="assets/other/fullcalendar-2.4.0/fullcalendar.css" rel="stylesheet" />
 <link href="assets/other/fullcalendar-2.4.0/fullcalendar.print.css" rel="stylesheet" media="print" />
+<link rel="stylesheet" href="assets/custom/css/event.css"> <!-- custom -->
 <script src="assets/other/fullcalendar-2.4.0/lib/moment.min.js"></script>
 <script src="assets/other/fullcalendar-2.4.0/lib/jquery.min.js"></script>
 <script src="assets/other/fullcalendar-2.4.0/fullcalendar.min.js"></script>
@@ -23,7 +24,6 @@
 
 
 <!-- Custom -->
-<link rel="stylesheet" href="assets/custom/css/event.css">
 
 
 <!-- set title of current page -->

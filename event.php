@@ -1,11 +1,16 @@
-<?php
-$pageTitle = "Event";
-include("inc/header.php");
-?>
-	<div id='calendar'></div>
-</body>
-</html>
+<!DOCTYPE html>
+<html>
 
-<?php
-include("inc/footer.php");
- ?>
+<head>
+  <?php
+  $pageTitle = "Event";
+  include("inc/head.php");
+   ?>
+</head>      
+    
+<body>
+  <?php include("inc/header.php") ?>
+  <div id='calendar'></div>
+</body>
+  
+</html>

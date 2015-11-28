@@ -1,16 +1,22 @@
-<?php
-  include("database.php");
-  //create select query
-  try {
-        $shouts = $db->query("SELECT * FROM shouts ORDER BY id DESC");
-    } catch (Exception $e) {
-        echo "Data could not be retrieved from the database.";
-        exit;
-    }
-    $pageTitle = "Shout Box";
-    include("inc/header.php");
-?>
+<!DOCTYPE html>
 <html>
+
+<head>
+  <?php
+    include("database.php");
+    //create select query
+    try {
+          $shouts = $db->query("SELECT * FROM shouts ORDER BY id DESC");
+      } catch (Exception $e) {
+          echo "Data could not be retrieved from the database.";
+          exit;
+      }
+      $pageTitle = "Shout Box";
+      include("inc/head.php");
+   ?>
+</head>
+  
+<body>
   <div class="container">
     <div class="panel panel-default">
       <div class="panel-heading text-center"><h1>SHOUT IT OUT!</h1></div>
@@ -48,6 +54,6 @@
       </div>
     </div>
   </div>
-<?php
-include("inc/footer.php");
- ?>
+</body>
+  
+</html>

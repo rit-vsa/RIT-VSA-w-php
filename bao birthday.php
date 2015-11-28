@@ -4,6 +4,8 @@ include("inc/header.php");
 require_once("inc/images.php");
 $images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img/Bao's Birth Day");
 ?>
+
+
 <div class="container">
   <div class="page-header">
     <h3>Durand Eastman Park</h3>
