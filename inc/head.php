@@ -1,4 +1,4 @@
- <meta charset='utf-8' />
+<meta charset='utf-8' />
 
 <!-- JQuery -->
 <script src="jquery-1.11.3.min.js"></script>

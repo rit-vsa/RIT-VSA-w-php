@@ -4,12 +4,12 @@
 <head>
   <?php
   $pageTitle = "...";
-  include("include/head.php");
+  include("inc/head.php");
   ?>
 </head>      
     
 <body>
-  <?php include("include/header.php") ?>
+  <?php include("inc/header.php") ?>
   Content of the document......
 </body>
 
