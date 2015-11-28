@@ -18,12 +18,12 @@
 <script src="assets/other/fullcalendar-2.4.0/lib/moment.min.js"></script>
 <script src="assets/other/fullcalendar-2.4.0/lib/jquery.min.js"></script>
 <script src="assets/other/fullcalendar-2.4.0/fullcalendar.min.js"></script>
+<script src="assets/custom/js/event.js"></script> <!-- custom -->
 <?php } ?>
 
 
 <!-- Custom -->
 <link rel="stylesheet" href="assets/custom/css/event.css">
-<script src="assets/custom/js/event.js"></script>
 
 
 <!-- set title of current page -->

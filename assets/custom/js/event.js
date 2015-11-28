@@ -7,15 +7,16 @@ $(document).ready(function() {
         },
         defaultDate: '2015-11-01',
         businessHours: true, // display business hours
-  eventLimit: true,
+        eventLimit: true,
         editable: false,
         events: [
             {
                 title: 'VSA Thanksgiving Dinner',
-      start: '2015-11-26T19:00:00',
+                start: '2015-11-26T19:00:00',
                 end: '2015-11-26T21:00:00',
             },
-    /*      {
+    /*
+            {
                 title: 'Meeting',
                 start: '2015-02-13T11:00:00',
                 constraint: 'availableForMeeting', // defined below
@@ -34,7 +35,6 @@ $(document).ready(function() {
                 end: '2015-02-13T16:00:00',
                 rendering: 'background'
             },
-
             // red areas where no events can be dropped
             {
                 start: '2015-02-24',
@@ -53,5 +53,4 @@ $(document).ready(function() {
     */
         ]
     });
-
 });
