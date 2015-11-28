@@ -3,14 +3,14 @@
 
 <head>
   <?php
-  $pageTitle = "Event";
+  $pageTitle = "...";
   include("inc/head.php");
-   ?>
+  ?>
 </head>      
     
 <body>
   <?php include("inc/header.php") ?>
-  <div id='calendar'></div>
+  Content of the document......
 </body>
-  
+
 </html>
