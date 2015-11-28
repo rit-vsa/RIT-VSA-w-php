@@ -5,7 +5,7 @@
   <?php
   $pageTitle = "Home";
   include("inc/head.php");
-  ?>
+   ?>
 </head>
     
 <body>
@@ -13,7 +13,7 @@
   include("inc/header.php");
   require_once("inc/images.php");
   $images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img");
-  ?>
+   ?>
     
   <!-- image gallery of all our photos -->
   <div class="container">
@@ -30,7 +30,7 @@
                   echo "<div class='item'><img src='img/".$images[$i]."'></div>";
                 }
               }
-            ?>
+             ?>
             <!-- Next and Previous slide buttons -->
             <a href="#slider" data-slide="prev" class="left carousel-control">
               <span class="glyphicon glyphicon-chevron-left"></span>

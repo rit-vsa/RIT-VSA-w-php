@@ -5,7 +5,7 @@
   <?php
   $pageTitle = "About Us";
   include("inc/head.php");
-  ?>
+   ?>
 </head>
 
 <body>
