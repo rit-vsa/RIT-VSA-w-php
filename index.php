@@ -2,6 +2,7 @@
 $pageTitle = "Home";
 include("inc/header.php");
 require_once("inc/images.php");
+$images = getImagesinFolder($_SERVER["DOCUMENT_ROOT"]."/RIT-VSA/img");
  ?>
  <!-- image gallery of all our photos -->
     <div class="container">
@@ -10,12 +11,12 @@ require_once("inc/images.php");
          <div class="carousel slide" data-ride="carousel" id="slider">
            <div class="carousel-inner">
              <?php
-             for($i = 0;$i < count($names);$i++){
+             for($i = 0;$i < count($images);$i++){
                if($i == 0){
-                 echo "<div class='item active'><img src='img/".$names[$i]."'></div>";
+                 echo "<div class='item active'><img src='img/".$images[$i]."'></div>";
                }
                else{
-                 echo "<div class='item'><img src='img/".$names[$i]."'></div>";
+                 echo "<div class='item'><img src='img/".$images[$i]."'></div>";
                }
              }
              ?>
